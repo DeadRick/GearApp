@@ -24,5 +24,13 @@ namespace GearApp
         {
             InitializeComponent();
         }
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            ResultWindow resWindow = new();
+
+            if (resWindow.ShowDialog() == true)
+            {
+            }
+        }
     }
 }
